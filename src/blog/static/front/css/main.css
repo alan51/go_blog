@@ -1,0 +1,6 @@
+@import "font-awesome.min.css";
+@import "../layui/css/layui.css";
+@import "global.css";
+.article {width: 100%;position: absolute;top:65px}
+.article_img {width: 90%;margin: 15px;}
+.article_desc {margin-top: 30px;height: 200px;overflow: hidden;}

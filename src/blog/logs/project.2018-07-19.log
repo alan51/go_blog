@@ -1,0 +1,942 @@
+2018/01/15 09:55:55 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/01/15 09:56:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 118.540958ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:56:02 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    447.348µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 09:56:02 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|   1.063529ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 09:56:02 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    628.344µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 09:56:02 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|   1.329594ms|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 09:56:02 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|     715.07µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|   1.089035ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    633.917µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|     805.71µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    504.562µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|     318.68µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    461.589µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|   1.875864ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    440.696µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    529.217µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 09:56:03 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    854.745µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 09:56:04 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|   7.835028ms|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 09:57:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  18.268016ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:57:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.452165ms|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:57:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   23.74272ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:57:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    266.852µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.302006ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    243.654µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.704869ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    131.335µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  18.054027ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    392.892µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  28.535813ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    166.914µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:35 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  57.728198ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:35 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    141.001µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:44 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.456884ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:45 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    143.573µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.200432ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    131.223µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    15.9164ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     92.463µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   15.08572ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.914µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:58:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.490619ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:58:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    201.977µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.366957ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    107.639µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.545988ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:09 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    139.755µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:09 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.315668ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:10 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    118.916µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:10 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.795019ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    205.504µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:45 [E] [controller.go:261] parse template err: front/index.tpl template: layout/front/tree.html:27: undefined variable "$article"
+2018/01/15 09:59:45 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  19.650645ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:46 [E] [controller.go:261] parse template err: front/index.tpl template: layout/front/tree.html:27: undefined variable "$article"
+2018/01/15 09:59:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  13.745749ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    112.819µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:47 [E] [controller.go:261] parse template err: front/index.tpl template: layout/front/tree.html:27: undefined variable "$article"
+2018/01/15 09:59:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.704529ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    166.801µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:49 [E] [controller.go:261] parse template err: front/index.tpl template: layout/front/tree.html:27: undefined variable "$article"
+2018/01/15 09:59:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  13.712006ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    125.085µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:50 [E] [controller.go:261] parse template err: front/index.tpl template: layout/front/tree.html:27: undefined variable "$article"
+2018/01/15 09:59:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  13.832639ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    186.648µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 09:59:59 [E] [controller.go:261] parse template err: front/index.tpl template: layout/front/tree.html:27: undefined variable "$article"
+2018/01/15 09:59:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.044243ms|   match|[44m GET     [0m /     r:/
+2018/01/15 09:59:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   7.937479ms|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:00:00 [E] [controller.go:261] parse template err: front/index.tpl template: layout/front/tree.html:27: undefined variable "$article"
+2018/01/15 10:00:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.208918ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:00:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.841µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:00:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.372302ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:00:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    175.377µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:00:41 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  24.446458ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:00:41 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    144.321µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:00:42 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.074447ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:00:42 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.387µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:00:43 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.439975ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:00:44 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    124.617µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:01:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.139629ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:01:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    125.526µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:01:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  17.960626ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:01:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    272.244µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:01:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.615102ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:01:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    231.947µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:01:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  13.639614ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:01:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    181.019µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:01:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   20.60877ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:01:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     141.77µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:01:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.550602ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:01:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    127.886µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:25:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.728812ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:25:40 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     149.77µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:26:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   16.25012ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:26:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    127.322µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:26:36 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   13.64788ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:26:36 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.411829ms|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:26:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  25.122006ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:26:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.627µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:27:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  18.090701ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:27:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     202.72µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:29:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.842982ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:29:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    124.612µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:30:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.943143ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:30:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    133.236µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:30:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.803624ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:30:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    171.673µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  17.238619ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    189.317µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     923.07µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    215.125µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    243.803µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    292.143µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    368.661µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    190.779µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    154.719µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     155.85µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.681666ms|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    170.296µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     74.917µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    317.835µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    244.898µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:30:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    682.596µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:30:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     108.03µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:30:26 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.244902ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:30:26 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    249.408µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:31:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  26.507494ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:31:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    131.024µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:31:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  25.731625ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:31:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.863µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:31:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.454363ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:31:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     122.91µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:31:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    16.9442ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:31:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    127.462µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:32:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   22.65265ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:32:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    127.846µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:32:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   25.15518ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:32:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    165.894µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:32:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.002486ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:32:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    121.248µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:32:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   24.05063ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:32:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    127.023µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:32:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.723071ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:32:35 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.165µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:33:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.590703ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:33:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    159.583µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:33:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.315788ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:33:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    146.397µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:34:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.209299ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:34:26 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    179.129µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:45:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 270.586642ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:45:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.152194ms|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:45:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.106079ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:45:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.986µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:46:10 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   25.49231ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:46:10 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    129.749µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:46:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  26.404073ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:46:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.755656ms|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:46:35 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.851546ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:46:35 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    132.886µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:46:37 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.853597ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:46:37 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    268.325µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:46:38 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  28.637881ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:46:38 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    109.321µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:46:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.599296ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:46:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     154.26µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:46:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  22.844606ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:46:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     130.42µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:47:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.682251ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:47:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    228.628µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:47:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   21.52635ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:47:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     131.55µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:48:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  25.918181ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:48:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     90.341µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:49:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  20.490579ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:49:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    160.626µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:49:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  22.723069ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:49:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    190.093µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:50:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.773839ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:50:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.292µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 10:54:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  21.840223ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:54:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    218.449µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:54:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.979545ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:54:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    185.996µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:54:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     68.363µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:54:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     397.79µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:54:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    339.808µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    167.988µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    536.446µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    234.017µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    123.013µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.348533ms|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     72.525µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    484.036µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     178.85µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.304474ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:54:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    126.877µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:54:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.142857ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:54:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    136.593µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:54:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    150.376µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:54:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    149.426µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:54:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     68.006µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:54:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    182.813µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    352.856µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    139.268µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    245.945µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     95.137µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.326µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    117.644µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     72.195µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    194.617µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.000038ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:54:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    269.395µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:54:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    165.398µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:54:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  29.252837ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:54:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    135.918µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:54:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    866.804µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:54:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    127.602µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:54:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     73.889µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:54:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    194.786µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     181.36µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    130.759µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    132.389µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    121.233µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.134µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    523.835µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     71.537µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    228.201µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    129.378µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:54:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    4.47599ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:54:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    166.547µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:55:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.525567ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:55:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     161.02µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:55:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     157.72µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    154.055µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     69.231µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    376.213µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    268.166µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    130.392µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    144.221µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     146.22µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     579.92µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.402µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      76.44µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    156.984µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     173.98µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:55:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    574.614µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:55:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.289µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:55:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  30.224361ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:55:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.912585ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:55:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.729726ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:55:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    142.451µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:55:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     73.291µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:55:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     190.11µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      191.7µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    493.233µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.382343ms|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    119.846µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    119.556µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    345.566µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     78.059µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     137.87µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    145.387µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     285.74µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:55:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.403µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.960402ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    146.202µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    688.513µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    156.999µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|         74µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    459.733µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    475.966µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    260.125µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    120.203µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.363µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    864.077µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    122.404µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     170.78µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     41.436µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    198.676µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:55:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    261.017µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:55:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     115.18µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:56:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  20.358637ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:56:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.889626ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:56:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    506.243µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:56:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    266.767µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:56:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     73.852µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    185.612µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    213.772µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    424.431µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     108.51µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    136.396µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    130.189µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    107.441µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      68.22µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    158.335µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    132.806µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:56:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    299.903µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:56:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    117.574µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  22.282675ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      141.1µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.078008ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     127.11µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     71.739µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    168.219µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    174.274µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    131.955µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.993µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    107.574µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    103.301µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     233.52µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     73.154µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    205.418µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    155.498µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:56:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    599.387µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:56:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.936µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.382602ms|   match|[44m GET     [0m /     r:/
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    146.597µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.273472ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.639µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     69.481µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    191.699µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    264.859µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 10:58:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     140.02µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    213.833µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    138.807µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.505µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    106.678µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     71.477µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    142.444µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.15083ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.876679ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 10:58:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    117.866µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  18.377002ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.067103ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    375.101µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.176056ms|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      80.32µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    273.213µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    205.743µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.178µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     327.97µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    117.239µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    120.484µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/15 11:00:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    880.523µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/15 11:00:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     78.763µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/15 11:00:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    175.505µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/15 11:00:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    312.266µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/15 11:00:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     241.23µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/15 11:00:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.047µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/15 11:00:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  17.412764ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:00:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    138.673µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 11:00:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.545751ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:00:52 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    506.549µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 11:00:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    152.548µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 11:00:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  21.606092ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:00:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    120.454µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 11:02:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  22.780606ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:02:33 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    194.404µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 11:02:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    174.308µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 11:02:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  15.693539ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:02:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     118.48µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 11:03:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.573463ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:03:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    165.003µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 11:03:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.476545ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:03:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    125.583µs|   match|[44m GET     [0m /favicon.ico
+2018/01/15 11:03:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  25.279007ms|   match|[44m GET     [0m /     r:/
+2018/01/15 11:03:47 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|     68.075µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/15 11:03:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.121µs|   match|[44m GET     [0m /favicon.ico
+2018/01/31 14:29:11 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/01/31 14:29:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 507.546271ms|   match|[44m GET     [0m /     r:/
+2018/01/31 14:29:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   6.819906ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/31 14:29:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.355631ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/31 14:29:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   6.645398ms|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/31 14:29:17 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    514.092µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/31 14:29:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.104215ms|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|   1.817658ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    589.305µs|   match|[44m GET     [0m /favicon.ico
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|     560.18µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|   1.930238ms|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    532.555µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    377.168µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    941.586µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      470.6µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.132514ms|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.097848ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/31 14:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   7.915654ms|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/31 14:29:20 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    446.522µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/31 14:29:56 [D] [server.go:2619] |      127.0.0.1|[47m 304 [0m|    274.024µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/31 14:30:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  74.545143ms|   match|[44m GET     [0m /     r:/
+2018/01/31 14:30:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.152957ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/31 14:30:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    782.455µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/31 14:30:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    272.372µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/31 14:30:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     245.32µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/31 14:30:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    427.708µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.42473ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.158374ms|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    172.906µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    164.566µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     214.64µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    157.515µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    154.438µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    247.475µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    190.591µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    484.048µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/31 14:30:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    701.972µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/31 14:30:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  22.068946ms|   match|[44m GET     [0m /     r:/
+2018/01/31 14:30:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    194.567µs|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/31 14:30:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.66438ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    126.036µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     79.872µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    185.644µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    276.211µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    197.923µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    166.293µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    184.048µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     177.06µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.447563ms|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.748µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    242.998µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    216.785µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/31 14:30:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    283.705µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/31 14:30:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    365.302µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/01/31 14:31:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  61.376213ms|   match|[44m GET     [0m /     r:/
+2018/01/31 14:31:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.157587ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/01/31 14:31:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    478.099µs|   match|[44m GET     [0m /static/dux/css/main.css
+2018/01/31 14:31:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    497.871µs|   match|[44m GET     [0m /static/upload/image/2017/11/23/5203d128192cf038a86e8a9947fc4e0d.jpeg
+2018/01/31 14:31:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     157.71µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/01/31 14:31:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     519.93µs|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.042773ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    367.086µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    138.077µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.495µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    122.377µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     226.59µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    140.788µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    163.865µs|   match|[44m GET     [0m /static/upload/image/2017/12/01/markdown.png
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     136.87µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/09974f39b1668c5fac69f183a04c4c79.jpg
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    591.029µs|   match|[44m GET     [0m /static/upload/image/2017/11/29/2469183-4e33c75c3748e991.png
+2018/01/31 14:31:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    173.703µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/07/19 17:04:54 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:11:12 [I] [asm_amd64.s:2337] http server Running on http://:8081
+2018/07/19 17:11:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 129.986921ms|   match|[44m GET     [0m /     r:/
+2018/07/19 17:11:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.816357ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/07/19 17:11:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.087514ms|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/07/19 17:11:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.771365ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     1.6652ms|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    6.60998ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      939.2µs|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.168886ms|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     734.03µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    750.763µs|   match|[44m GET     [0m /favicon.ico
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     627.91µs|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    435.408µs|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    399.748µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  13.176328ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  12.246198ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  13.562486ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   3.572459ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  27.648344ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  34.442234ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.317476ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  24.255594ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   6.168023ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   6.729448ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   3.937026ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/19 17:11:27 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     629.62µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    987.208µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/golang.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.225766ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/linux.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    469.211µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/trait.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    669.066µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/iview.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    626.884µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/interface.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    969.502µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/linux.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.763106ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.246552ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php7.jpg
+2018/07/19 17:11:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    744.217µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/nginx.jpg
+2018/07/19 17:12:05 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    38.0194ms|   match|[44m GET     [0m /     r:/
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.626758ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.167617ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    803.991µs|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    546.027µs|   match|[44m GET     [0m /favicon.ico
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.424819ms|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.885095ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.616404ms|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.91872ms|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/07/19 17:12:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    559.796µs|   match|[44m GET     [0m /static/dux/js/main.js
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.267643ms|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.85827ms|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     588.73µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    1.31931ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    722.875µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    755.454µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    499.362µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   2.724334ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    608.156µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    2.18369ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   2.029341ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    845.273µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    883.266µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    722.838µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/19 17:12:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.343886ms|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/07/19 17:13:27 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:14:19 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:14:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   27.07085ms|   match|[44m GET     [0m /     r:/
+2018/07/19 17:14:54 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    636.193µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/19 17:14:54 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    839.131µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/19 17:14:54 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    661.684µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/19 17:14:54 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     842.85µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/19 17:14:54 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   3.110263ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/19 17:14:54 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    633.808µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/19 17:14:55 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.014173ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/19 17:14:55 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    704.303µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/19 17:14:55 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    797.752µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/19 17:14:55 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    694.526µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/19 17:14:55 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    557.315µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:15:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    496.566µs| nomatch|[44m GET     [0m /api/
+2018/07/19 17:15:04 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    420.474µs| nomatch|[44m GET     [0m /api/
+2018/07/19 17:16:50 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:16:52 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:16:54 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:16:56 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:17:00 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.406847ms| nomatch|[44m GET     [0m /api/
+2018/07/19 17:17:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    504.494µs| nomatch|[44m GET     [0m /api/
+2018/07/19 17:17:08 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    705.776µs| nomatch|[44m GET     [0m /api/
+2018/07/19 17:17:20 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    760.355µs| nomatch|[44m GET     [0m /api/
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    775.133µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    726.937µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    777.607µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.355617ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    2.88592ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   4.396738ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    565.637µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     1.0248ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   6.135975ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   2.966347ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.910906ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:17:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  46.778107ms|   match|[44m GET     [0m /     r:/
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.491143ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    4.78706ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   7.747237ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     8.4209ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   9.321608ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.529658ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    650.073µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    666.837µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    619.933µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    3.32767ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    582.829µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/19 17:17:41 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  52.956861ms|   match|[44m GET     [0m /     r:/
+2018/07/19 17:17:43 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.942897ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    813.916µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   6.802429ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   8.687433ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   8.144824ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    8.16064ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     4.0357ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   6.769181ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    1.04208ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.721594ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.035979ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:17:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    859.853µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  18.002743ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    881.919µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   9.004845ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   7.754606ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   7.113383ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   2.282997ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    1.02679ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    1.59444ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    627.424µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  11.881269ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/myisam-innodb.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  12.050385ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/19 17:17:45 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|  11.573562ms| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/19 17:18:12 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:18:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:18:30 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:18:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:18:34 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:18:37 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:18:38 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:22:11 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] the request url is  /api/
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 17:22:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 17:22:17 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:22:19 [D] [server.go:2619] |      127.0.0.1|[41m 500 [0m|  10.202626ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:29:19 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:29:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  11.025241ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:29:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.582301ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:29:37 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:29:42 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   10.90222ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:29:42 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.211324ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:30:05 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:30:35 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:30:37 [D] [server.go:2619] |      127.0.0.1|[41m 500 [0m|  10.050314ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:52 [D] [server.go:2619] |      127.0.0.1|[41m 500 [0m|  19.784907ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:55 [D] [server.go:2619] |      127.0.0.1|[41m 500 [0m|  11.128097ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:56 [D] [server.go:2619] |      127.0.0.1|[41m 500 [0m|  10.221549ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:56 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:33:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.157056ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.545317ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.452018ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.308644ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.207645ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.831907ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.935743ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     9.2049ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.931335ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.003364ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:33:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.018177ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:43:22 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:43:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  28.780019ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:44:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.012914ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:44:45 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 17:52:43 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  53.401274ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 17:52:45 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   10.55529ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 18:08:41 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] the request url is  /api/article/1
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:08:54 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] the request url is  /api/article/1
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:09:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] the request url is  /api/article/1
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:10:01 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:10:28 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] the request url is  /api/article/1
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:10:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:12:34 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:12:44 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.463908ms| nomatch|[44m GET     [0m /apii/article/11
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:12:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:12:49 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:12:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  17.963484ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 18:12:55 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  17.555628ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 18:12:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.786516ms|   match|[44m GET     [0m /api/   r:/api/
+2018/07/19 18:12:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.980082ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    9.84979ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.342059ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.689324ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.915858ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  11.549591ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    9.13928ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.868667ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    9.17827ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.595577ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.488127ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.822356ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.945339ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.376939ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.892572ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.347569ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.288721ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   10.16219ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.240074ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.663587ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.481907ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.957584ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  20.823282ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.864978ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  11.403007ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.265149ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   12.45857ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.430923ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.109885ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  23.020028ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.062071ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.320112ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   21.48234ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    8.68222ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:13:39 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:13:46 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.919039ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   8.473999ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  17.520627ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:13:55 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:14:16 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:14:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:14:22 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:14:23 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:14:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:15:46 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:15:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/19 18:16:56 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/19 18:16:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337

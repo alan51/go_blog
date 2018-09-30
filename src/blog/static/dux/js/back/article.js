@@ -1,0 +1,54 @@
+(function() {  //加载
+    var obj =  {};
+    obj.loadScript = function(url,callback){
+        var doc = document;
+        var script = doc.createElement("script");
+        script.type = "text/javascript";
+        if(script.readyState){  //IE
+            script.onreadystatechange = function(){
+                if(script.readyState=="load"||script.readyState=="complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        }else{
+            script.onload = function(){
+                callback();
+            };
+        }
+        script.src = url;
+        doc.getElementsByTagName("head")[0].appendChild(script);
+    };
+    var jsList = [
+        qiniu_domain+'/static/js/jquery.min.js',
+        qiniu_domain+'/static/dux/js/libs/bootstrap.min.js',
+        qiniu_domain+ '/static/dux/js/loader.js',
+        qiniu_domain+"/static/plugins/editor/lib/marked.min.js",
+        qiniu_domain+ "/static/plugins/editor/lib/prettify.min.js",
+        qiniu_domain+'/static/plugins/editor/lib/raphael.min.js',
+        qiniu_domain+ '/static/plugins/editor/lib/underscore.min.js',
+        qiniu_domain+ '/static/plugins/editor/lib/sequence-diagram.min.js',
+        qiniu_domain+ '/static/plugins/editor/lib/flowchart.min.js',
+        qiniu_domain+ '/static/plugins/editor/lib/jquery.flowchart.min.js',
+        qiniu_domain+ "/static/plugins/editor/js/editormd.min.js",
+    ];
+    function callback(){
+        jsList.length?obj.loadScript(jsList.shift(),callback)
+            :(function(){time = null})();
+    }
+    var time = setTimeout(function(){obj.loadScript(jsList.shift(),callback)}, 100);
+    setTimeout(function () {
+        var testEditormdView;
+        testEditormdView = editormd.markdownToHTML("test-editormd-view", {
+            htmlDecode      : "style,script,iframe",  // you can filter tags decode
+            emoji           : true,
+            taskList        : true,
+            tex             : true,  // 默认不解析
+            flowChart       : true,  // 默认不解析
+            sequenceDiagram : true,  // 默认不解析
+            tocm            : true,    // Using [TOCM]
+            tocContainer    : "#custom-toc-container", // 自定义 ToC 容器层
+        });
+    }, 1000);
+
+})();

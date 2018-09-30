@@ -1,0 +1,280 @@
+swagger: "2.0"
+info:
+  title: beego Test API
+  description: beego has a very cool tools to autogenerate documents for your API
+  version: 1.0.0
+  termsOfService: http://beego.me/
+  contact:
+    email: astaxie@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+basePath: /v1
+paths:
+  /article/:
+    get:
+      tags:
+      - article
+      description: 获取用户全部数据
+      operationId: ArticleController.获取用户全部数据
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/.Article'
+  /object/:
+    get:
+      tags:
+      - object
+      description: 获取所以的项目
+      operationId: ObjectController.获取全部项目数据
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/models.Object'
+        "403":
+          description: :项目 id 不存在
+    post:
+      tags:
+      - object
+      description: 创建一个项目
+      operationId: ObjectController.创建
+      parameters:
+      - in: body
+        name: body
+        description: 项目内容
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: 主体内容为空
+  /object/{objectId}:
+    get:
+      tags:
+      - object
+      description: 通过 id 获取项目的详情
+      operationId: ObjectController.获取一条记录
+      parameters:
+      - in: path
+        name: objectId
+        description: 你想获取的项目详情的 id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/models.Object'
+        "403":
+          description: :项目 id 不存在
+    put:
+      tags:
+      - object
+      description: 更新项目
+      operationId: ObjectController.更新项目操作
+      parameters:
+      - in: path
+        name: objectId
+        description: 项目 id
+        required: true
+        type: string
+      - in: body
+        name: body
+        description: 内容主体
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/models.Object'
+        "403":
+          description: :项目 id 不存在
+    delete:
+      tags:
+      - object
+      description: 删除项目
+      operationId: ObjectController.删除
+      parameters:
+      - in: path
+        name: objectId
+        description: 项目 id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: '{string} 删除成功'
+        "403":
+          description: 项目 id 为空
+  /user/:
+    get:
+      tags:
+      - user
+      description: 获取用户全部数据
+      operationId: UserController.获取用户全部数据
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/models.User'
+    post:
+      tags:
+      - user
+      description: 创建用户
+      operationId: UserController.创建用户
+      parameters:
+      - in: body
+        name: body
+        description: 内容不能为空
+        required: true
+        schema:
+          $ref: '#/definitions/models.User'
+      responses:
+        "200":
+          description: '{int} models.User.Id'
+        "403":
+          description: 创建参数为空
+  /user/{uid}:
+    get:
+      tags:
+      - user
+      description: get user by uid
+      operationId: UserController.获取一条互数据
+      parameters:
+      - in: path
+        name: uid
+        description: The key for staticblock
+        required: true
+        type: string
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/models.User'
+        "403":
+          description: :用户 id 不能为空
+    put:
+      tags:
+      - user
+      description: 更新用户操作
+      operationId: UserController.更新操作
+      parameters:
+      - in: path
+        name: uid
+        description: The uid you want to update
+        required: true
+        type: string
+      - in: body
+        name: body
+        description: body for user content
+        required: true
+        schema:
+          $ref: '#/definitions/models.User'
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/models.User'
+        "403":
+          description: :uid 参数不是整数
+    delete:
+      tags:
+      - user
+      description: 删除一个用户
+      operationId: UserController.删除
+      parameters:
+      - in: path
+        name: uid
+        description: 填写你想删除的用户 uid
+        required: true
+        type: string
+      responses:
+        "200":
+          description: '{string} 删除成功!'
+        "403":
+          description: 用户 uid 不能为空
+  /user/login:
+    get:
+      tags:
+      - user
+      description: 登录系统用户
+      operationId: UserController.登录
+      parameters:
+      - in: query
+        name: username
+        description: 登录用户的账号
+        required: true
+        type: string
+      - in: query
+        name: password
+        description: 登录用户的密码
+        required: true
+        type: string
+      responses:
+        "200":
+          description: '{string} 登录成功'
+        "403":
+          description: 用户不存在
+  /user/logout:
+    get:
+      tags:
+      - user
+      description: 清空登录用户的 session
+      operationId: UserController.退出登录
+      responses:
+        "200":
+          description: '{string} 退出成功'
+definitions:
+  .Article:
+    type: object
+  models.Object:
+    title: Object
+    type: object
+    properties:
+      ObjectId:
+        type: string
+      PlayerName:
+        type: string
+      Score:
+        type: integer
+        format: int64
+  models.Profile:
+    title: Profile
+    type: object
+    properties:
+      Address:
+        type: string
+      Age:
+        type: integer
+        format: int64
+      Email:
+        type: string
+      Gender:
+        type: string
+  models.User:
+    title: User
+    type: object
+    properties:
+      Id:
+        type: string
+      Password:
+        type: string
+      Profile:
+        $ref: '#/definitions/models.Profile'
+      Username:
+        type: string
+tags:
+- name: object
+  description: |
+    项目的增删改查接口文档
+- name: user
+  description: |
+    用户的增删改查登录退出操作
+- name: article
+  description: |
+    文章接口文档

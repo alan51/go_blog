@@ -1,0 +1,36 @@
+#navs{color: #aaa;}
+#navs h2{font-size: 20px;font-weight: normal;color: #fff;padding: 10px;background-color: #45B6F7;margin: 0}
+#navs .item{overflow: hidden;margin:20px 0 30px;}
+#navs .item h2{width: 140px;padding: 11px 15px;margin: 0;font-size: 18px;}
+#navs .item ul{margin-right: -1%;}
+#navs .item li{float: left;width: 19%;margin-right: 1%;margin-top: 1%;padding: 15px;font-size: 12px;height: 89px;overflow: hidden;background-color: #fff;border-bottom: 15px solid #fff;}
+#navs .item li a{margin-bottom: 5px;display: inline-block;font-size: 14px;font-weight: bold;color: #45B6F7;border-bottom: 2px solid transparent;}
+#navs .item li a:hover{color: #FD8C84;border-bottom-color: #FD8C84;}
+
+#navs .items{margin-left: 160px;}
+#navs nav{width: 140px;position: absolute;top: 0;left: 0;height:100%;background-color: #45B6F7;}
+
+#navs nav ul{width: 140px;}
+#navs nav a{display: block;padding: 10px 20px;color: #fff;border-bottom: 1px solid #349DE0;}
+#navs nav a:hover, #navs nav .active a{background-color: #349DE0;color: #fff;}
+#navs nav ul.affix{position: fixed;top: 0}
+#navs nav ul.affix-bottom{position: fixed;}
+
+.pageheader{margin: 0;}
+
+@media (max-width:1280px){
+	#navs .items{margin-right: 10px;}
+}
+@media (max-width:1024px){
+	#navs .item{margin-top: 10px;}
+	#navs .items{margin: 0;}
+	#navs nav{display: none;}
+	#navs .item li{width: 24%;}
+}
+@media (max-width:640px){
+	#navs .item li{width: 32.333333%;}
+	#navs .item h2{width: auto;text-align: center;	}
+}
+@media (max-width:320px){
+	#navs .item li{width: 49%;}
+}

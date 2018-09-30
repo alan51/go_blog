@@ -1,0 +1,61 @@
+<aside class="sidebar animated fadeIn">
+    <<< $config := .config>>>
+    <div class="widget widget_ui_textasb">
+        <a class="style02" target="_blank"><strong><i class="fa fa-cc"></i> 声明</strong>
+            <h2></h2>
+            <p><<<$config.web_state | str2html>>></p>
+        </a>
+    </div>
+    <<< if .tui_article_status >>>
+    <div class="widget widget_ui_textasb">
+        <a class="style03" onclick="javascript:void(0);"><strong><i class="fa fa-paper-plane"></i> 推荐</strong></a>
+        <div class="widget_ui_posts">
+            <ul>
+                <<< range $list :=.tui_article >>>
+                <li>
+                    <a href="/article/<<<$list.Id>>>" class="no-border" style="border: 0;">
+                        <span class="thumbnail">
+                            <img data-src="<<< $list.IndexImg>>>" alt="<<< $list.Title >>> - <<< $config.app_name>>>" class="thumb">
+                        </span>
+                        <span class="text"><<< $list.Title>>></span>
+                        <span class="muted"><<< $list.CreatedAt>>></span>
+                    </a>
+                </li>
+                <<< end>>>
+            </ul>
+        </div>
+    </div>
+    <<< end>>>
+    <<< if .hot_article_status >>>
+    <div class="widget widget_ui_textasb">
+        <a class="style04" onclick="javascript:void(0);"  style="border: 0;"><strong><i class="fa fa-fire"></i> 热门</strong></a>
+        <div class="widget_ui_posts">
+            <ul>
+                <<< range $list :=.hot_article >>>
+                <li>
+                    <a href="/article/<<<$list.Id>>>" class="no-border" style="border: 0;">
+                        <span class="thumbnail">
+                            <img data-src="<<< $list.IndexImg>>>" alt="<<< $list.Title >>> - <<< $config.app_name>>>" class="thumb">
+                        </span>
+                        <span class="text"><<< $list.Title>>></span>
+                        <span class="muted"><<< $list.CreatedAt>>></span>
+                    </a>
+                </li>
+                <<< end>>>
+            </ul>
+        </div>
+    </div>
+    <<< end>>>
+    <<< if .link_status>>>
+    <div class="widget widget_ui_textasb">
+        <a class="style05" onclick="javascript:void(0);"  style="border: 0;"><strong><i class="fa fa-fire"></i> 友链</strong></a>
+        <div class="widget_ui_tags">
+            <div class="items">
+                <<< range $link := .links>>>
+                <a href="<<< $link.Url>>>" target="_blank"><img src="<<< $link.Img>>>" alt="<<< $link.Name>>>"><<< $link.Name>>></a>
+                <<< end >>>
+            </div>
+        </div>
+    </div>
+    <<< end>>>
+</aside>

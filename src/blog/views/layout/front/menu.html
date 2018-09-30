@@ -1,0 +1,18 @@
+<header class="header">
+    <div class="container">
+        <h1 class="logo animated rotateIn">
+            <a href="/" title="<<< .config.app_name>>>">
+                <!-- <img src="/static/dux/img/new_logo.png" width="85" height="32" alt="<<< .config.app_name>>>">-->
+                <<< .config.app_name>>>
+            </a>
+        </h1>
+        <<< .config.second_title | str2html>>>
+        <ul class="site-nav site-navbar">
+            <<< .tree | str2html>>>
+            <li class="navto-search">
+                <a href="javascript:;" class="search-show active"><i class="fa fa-search"></i></a>
+            </li>
+        </ul>
+        <i class="fa fa-bars m-icon-nav"></i>
+    </div>
+</header>

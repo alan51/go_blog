@@ -1,0 +1,261 @@
+2018/07/20 15:18:03 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:21:49 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:23:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  151.68125ms|   match|[44m GET     [0m /     r:/
+2018/07/20 16:23:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.213433ms|   match|[44m GET     [0m /static/dux/css/font-awesome.min.css
+2018/07/20 16:23:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    5.44385ms|   match|[44m GET     [0m /static/dux/css/main.css
+2018/07/20 16:23:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.031511ms|   match|[44m GET     [0m /static/dux/js/home_page.js
+2018/07/20 16:23:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.892782ms|   match|[44m GET     [0m /static/dux/fonts/fontawesome-webfont.woff
+2018/07/20 16:23:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    3.71578ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.206483ms|   match|[44m GET     [0m /static/dux/js/libs/bootstrap.min.js
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    902.145µs|   match|[44m GET     [0m /static/dux/js/loader.js
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.265261ms|   match|[44m GET     [0m /static/dux/js/main.js
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.142658ms|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.254831ms|   match|[44m GET     [0m /static/dux/js/signpop.js
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.957618ms|   match|[44m GET     [0m /static/dux/js/libs/lazyload.min.js
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    437.101µs|   match|[44m GET     [0m /static/dux/img/thumbnail.png
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   6.854567ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   3.208148ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/10/3woshou4huishou.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   5.192811ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/PHP-FPM.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   9.133625ms| nomatch|[44m GET     [0m /static/upload/image/2018/01/09/composer.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|      837.7µs| nomatch|[44m GET     [0m /static/upload/image/2018/01/30/design_patram2.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    681.756µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/weixinhao.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     586.77µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/php-curl.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    429.357µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/laravel5.4.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    659.988µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/wechat-pay.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    685.154µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/12/js.jpg
+2018/07/20 16:23:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     554.05µs|   match|[44m GET     [0m /static/dux/js/libs/page.js
+2018/07/20 16:23:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  14.343527ms|   match|[44m GET     [0m /api   r:/api/
+2018/07/20 16:23:09 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    504.861µs| nomatch|[44m GET     [0m /api/article
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:23:13 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:26:39 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlecontroller/detail.tpl
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:26:41 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:26:41 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    698.315µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:27:57 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:29:15 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     719.64µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:17 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    189.192µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:18 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    368.234µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     141.53µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    109.919µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:18 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|        155µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    257.548µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    120.245µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:29:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    159.351µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:29:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  53.557069ms|   match|[44m GET     [0m /article/11   r:/article/:id
+2018/07/20 16:29:22 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    624.452µs| nomatch|[44m GET     [0m /static/upload/image/2017/12/28/FaceQ1513930654113 (1).png
+2018/07/20 16:29:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.018275ms|   match|[44m GET     [0m /static/plugins/editor/lib/marked.min.js
+2018/07/20 16:29:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     677.39µs|   match|[44m GET     [0m /static/plugins/editor/lib/prettify.min.js
+2018/07/20 16:29:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.24581ms|   match|[44m GET     [0m /static/plugins/editor/js/editormd.min.js
+2018/07/20 16:29:27 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    615.048µs| nomatch|[44m GET     [0m /api.article/11
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:29:31 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:30:05 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:30:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.406918ms|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:30:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:30:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    196.015µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:30:09 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] the request url is  /api/article/11
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/detail.tpl
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:30:10 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:30:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    679.982µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:30:45 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:30:47 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/07/20 16:30:48 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|   1.170607ms| nomatch|[44m GET     [0m /api/article/11
+2018/07/20 16:30:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    763.322µs|   match|[44m GET     [0m /favicon.ico
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] the request url is  /api/article
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/index.tpl
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:30:53 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] the request url is  /api/article
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/articlescontroller/index.tpl
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/template.go:73
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:263
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:214
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/controller.go:194
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /Users/alan/Documents/www/blog/src/github.com/astaxie/beego/router.go:827
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/07/20 16:38:28 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/07/20 16:38:28 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    258.283µs|   match|[44m GET     [0m /favicon.ico

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="dns-prefetch" href="http://apps.bdimg.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <<<.HtmlHead>>>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<<<.qiniu_domain>>>/static/dux/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="/static/dux/css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="<<<.qiniu_domain>>>/static/dux/js/libs/html5.min.js"></script>
+    <![endif]-->
+    <<< .config.ext_header | str2html>>>
+    <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body class="<<<.body>>>">
+<<< .HtmlMenu>>>
+<div class="site-search">
+    <div class="container">
+        <form method="get" class="site-search-form" action="/">
+            <input class="search-input" name="title" type="text" placeholder="输入关键字" value="">
+            <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+<section class="container animated fadeIn">
+    <<< .LayoutContent >>>
+</section>
+<footer class="footer">
+    <div class="container">
+        <<< .config.footer | str2html>>>
+        <p> 本站已稳定运行 <strong id="htmer_time" style="color: blue"></strong></p>
+    </div>
+</footer>
+
+
+<<< .config.stat | str2html>>>
+<script>
+    function secondToDate(second){if(!second){return 0}var time=new Array(0,0,0,0,0);if(second>=365*24*3600){time[0]=parseInt(second/(365*24*3600));second%=365*24*3600}if(second>=24*3600){time[1]=parseInt(second/(24*3600));second%=24*3600}if(second>=3600){time[2]=parseInt(second/3600);second%=3600}if(second>=60){time[3]=parseInt(second/60);second%=60}if(second>0){time[4]=second}return time}function setTime(){var create_time=Math.round(new Date(Date.UTC(2017,11,7,2,0,0)).getTime()/1000);var timestamp=Math.round((new Date().getTime()+8*60*60*1000)/1000);currentTime=secondToDate((timestamp-create_time));currentTimeHtml="";if(currentTime[0]>0){currentTimeHtml+=currentTime[0]+"年"}if(currentTime[1]>0){currentTimeHtml+=currentTime[1]+"天"}if(currentTime[2]>0){currentTimeHtml+=currentTime[2]+"时"}if(currentTime[3]>0){currentTimeHtml+=currentTime[3]+"分"}currentTimeHtml+=currentTime[4]+"秒";document.getElementById("htmer_time").innerHTML=currentTimeHtml};
+    setInterval(setTime, 1000);
+</script>
+</body>
+</html>
