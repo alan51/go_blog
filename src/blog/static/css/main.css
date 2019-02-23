@@ -7,3 +7,9 @@
 .admin-main .layui-field-title .layui-field-box p{
 	padding: 5px 0;
 }
+.article-content {
+	font-size: 15px;
+	line-height: 25px;
+	word-wrap: break-word;
+	overflow-y: scroll
+}
